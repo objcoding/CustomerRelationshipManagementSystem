@@ -1,0 +1,12 @@
+.alert-view {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  z-index: 999;
+}
+.alert-view > .alert {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}

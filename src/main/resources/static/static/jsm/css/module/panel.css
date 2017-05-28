@@ -1,0 +1,10 @@
+.panel-default {
+  border-top-width: 3px;
+}
+.panel-default > .panel-heading {
+  background-color: #fff;
+  border-bottom: 0;
+}
+.control-label.col-xs-1 {
+  padding-right: 0px;
+}

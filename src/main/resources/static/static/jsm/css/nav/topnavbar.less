@@ -1,0 +1,52 @@
+@import "../constants/var";
+@import "../constants/color";
+@import "../constants/clearfix";
+
+.topnavbar-module-menu {
+
+  min-width: 360px;
+
+  > li {
+    .clearfix();
+
+    > div {
+      padding-left: 0;
+      padding-right: 0;
+      border-left: @border;
+      min-width: 160px;
+
+      &:first-child {
+        border-left: 0;
+      }
+
+      > a {
+        display: block;
+        padding: 10px 20px;
+        clear: both;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: @line-height-base;
+        color: @dropdown-link-color;
+        white-space: nowrap; // prevent links from randomly breaking onto new lines
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          color: @dropdown-link-hover-color;
+          background-color: @dropdown-link-hover-bg;
+        }
+      }
+    }
+  }
+}
+
+.topnavbar-module-menu > li > .active > a {
+  &,
+  &:hover,
+  &:focus {
+    color: @dropdown-link-active-color;
+    text-decoration: none;
+    outline: 0;
+    background-color: @dropdown-link-active-bg;
+  }
+}

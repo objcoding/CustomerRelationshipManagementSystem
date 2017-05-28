@@ -1,0 +1,6 @@
+.table > thead > tr {
+  background-color: #fff;
+}
+.boa-detail-table td {
+  width: 300px;
+}

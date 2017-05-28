@@ -1,0 +1,38 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+.js-sidebar {
+  position: absolute;
+  top: 52px;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  border-right: 1px solid #cfdbe2;
+}
+.js-sidebar > .scroller {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  background-color: #fff;
+}
+.js-sidebar > .scroller > .nav > li {
+  cursor: pointer;
+}
+.js-sidebar > .scroller > .nav > li > a {
+  font-size: 16px;
+  padding: 12px 24px;
+  color: #23b7e5;
+}
+.js-main-container {
+  position: absolute;
+  top: 52px;
+  bottom: 0;
+  left: 201px;
+  right: 0;
+  min-width: 1080px;
+  box-sizing: border-box;
+  border-right: 1px solid #cfdbe2;
+  overflow-y: auto;
+  overflow-x: auto;
+  background-color: #fafafa;
+}

@@ -1,0 +1,32 @@
+.table {
+  > thead {
+    > tr {
+      background-color: #fff;
+    }
+  }
+}
+
+.boa-detail-table {
+  margin-top: 10px;
+
+  td {
+    width: 70px;
+
+    &:first-child {
+      width: 300px;
+    }
+
+    &:last-child {
+      width: auto;
+    }
+
+  }
+}
+
+.table-big-container {
+  overflow-x: auto;
+
+  > .table {
+    width: 1280px;
+  }
+}

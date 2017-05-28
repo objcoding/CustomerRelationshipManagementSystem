@@ -1,0 +1,48 @@
+@import "../constants/var";
+@import "../constants/color";
+
+order.js-sidebar {
+  position: absolute;
+  top: 52px;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  border-right: @border;
+
+  > .scroller {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    background-color: #fff;
+
+    > .nav {
+
+      > li {
+
+        cursor: pointer;
+
+        > a {
+          font-size: 16px;
+          padding: 12px 24px;
+          color: @color-topnavbar;
+        }
+      }
+
+    }
+  }
+
+}
+
+order.js-main-container {
+  position: absolute;
+  top: 52px;
+  bottom: 0;
+  left: 201px;
+  right: 0;
+  min-width: 1080px;
+  box-sizing: border-box;
+  border-right: @border;
+  overflow-y: auto;
+  overflow-x: auto;
+  background-color: #fafafa;
+}
