@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping("/crm")
-public class WebController {
+public class TemplatesController {
 
     @RequestMapping("/login")
     public String login() {
